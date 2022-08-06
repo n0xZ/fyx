@@ -10,14 +10,5 @@
 </script>
 
 <template>
-	<section class="flex flex-col items-center mx-auto mt-12">
-		<h1>Bienvenido a: mi playground.</h1>
-		<button
-			class="py-2 px-5 w-24 rounded-xl border-amber-200 border-2"
-			@click="count++"
-		>
-			{{ count }}
-		</button>
-	<p>Doble : {{doubleCount}}</p>
-	</section>
+	<router-view />
 </template>
