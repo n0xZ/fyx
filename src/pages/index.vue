@@ -6,7 +6,9 @@
 	<section className="h-full hero ">
 		<article className="flex-col hero-content lg:flex-row">
 			<img
-				className="max-w-xl rounded-lg shadow-xl"
+				className="rounded-lg shadow-xl"
+				height="500"
+				width="500"
 				:src="LandingAsset"
 				alt="Imagen de la landing."
 			/>
